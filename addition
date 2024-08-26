@@ -1,7 +1,7 @@
 include <iostream>
 using namespace std;
 int main() {
-    int num1, num2, sum;
+    int num1, num2, sub;
 
     // Input two numbers
     cout << "Enter the first number: ";
@@ -9,11 +9,11 @@ int main() {
     cout << "Enter the second number: ";
     cin >> num2;
 
-    // Calculate sum
-    sum = num1 + num2;
+    // Calculate su
+    sub = num1 - num2;
 
-    // Display the sum
-    cout << "The sum of " << num1 << " and " << num2 << " is " << sum << endl;
+    // Display the sub
+    cout << "The sub of " << num1 << " and " << num2 << " is " << sub << endl;
 
     return 0;
 }
