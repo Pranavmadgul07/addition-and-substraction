@@ -1,0 +1,21 @@
+include <iostream>
+using namespace std;
+int main() {
+    int num1, num2, sub;
+
+    // Input two numbers
+    cout << "Enter the first number: ";
+    cin >> num1;
+    cout << "Enter the second number: ";
+    cin >> num2;
+
+    // Calculate sub
+    sum = num1 + num2;
+
+    // Display the sub
+    cout << "The sub of " << num1 << " and " << num2 << " is " << sub << endl;
+
+    return 0;
+}
+
+
